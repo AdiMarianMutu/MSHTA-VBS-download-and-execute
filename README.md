@@ -28,3 +28,5 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 (cmd.exe): mshta vbscript:execute("ONE LINE COMMAND")(window.close)
 ```
 ![Alt Text](https://i.imgur.com/9wuCs1v.gif)
+
+## Use your creativity ;)
