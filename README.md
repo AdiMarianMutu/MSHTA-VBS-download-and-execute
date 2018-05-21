@@ -1,4 +1,4 @@
-# MSHTA-VBS-download-and-execute
+# MSHTA VBScript Download & Execute
 Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 ```
 '=========================================='
