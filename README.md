@@ -7,7 +7,7 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 ' [*] Autoreconnect                        '
 ' [*] Hexadecimal encoded payload (UTF8)   '
 ' [*] Encrypted payload                    '
-' [*] In (almost) memory execution         '
+' [*] In (**almost) memory execution       '
 '++++++++++++++++++++++++++++++++++++++++++'
 '<---------------------------------------->'
 '<========================================>'
@@ -17,6 +17,8 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 'Script length with double quotes   : 330  '
 '<---------------------------------------->'
 '=========================================='
+
+**mshta.exe will save in a temp file your decrypted payload and after the execution the temp file will be deleted
 ```
 ## One line command
 ```
