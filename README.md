@@ -29,7 +29,7 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 ```
 (cmd.exe): mshta vbscript:execute("ONE LINE COMMAND")(window.close)
 ```
-![Alt Text](https://i.imgur.com/9wuCs1v.gif)
+![Alt Text](https://i.imgur.com/5bjSQAY.gif)
 
 ## Evasion Test
 Tested on **Windows7/10** x64 with: *Avira*, *AVG*, *Avast*, *ESET32*, *Kaspersky*, *Panda*, *BitDefender* and *Windows Defender* (Win7/10) to launch a more *expansive malicous payload*, the only one who blocked was **BitDefender**.
