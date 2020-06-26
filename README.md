@@ -34,6 +34,6 @@ Downloads, decode, decrypt and executes a VBScript using cmd and mshta
 [ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
 
 ## Evasion Test
-Tested on **Windows7/10** x64 with: *Avira*, *AVG*, *Avast*, *ESET32*, *Kaspersky*, *Panda*, *BitDefender* and *Windows Defender* (Win7/10) to launch a more *expansive malicous payload*, the only one who blocked was **BitDefender**.
+Tested on **Windows7/10** x64 with: *Avira*, *AVG*, *Avast*, *ESET32*, *Kaspersky*, *Panda*, *BitDefender* and *Windows Defender* (Win7/10) to launch a more *expansive malicous payload*, the only one which successfully blocked the process was **BitDefender**.
 
 ## Use your creativity ;)
